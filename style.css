@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2000px;
+    margin: 0;
+    width: 600px;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 600px; /* Adjusted height for the photo */
+    overflow: hidden; /* Ensures that any overflow is hidden */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 3px; /* Чем меньше, тем четче */
+    font-family: monospace;
+    line-height: 1.1em;
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    background: url('photo.jpg') no-repeat center top; /* Changed to center top to show the upper part */
+    background-size: cover;
+    -webkit-background-clip: text; /* Включаем обрезку фона */
+    color: transparent; /* Делаем текст прозрачным */
+}
