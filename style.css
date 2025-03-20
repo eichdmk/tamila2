@@ -26,7 +26,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     
-    background: url('photo.jpg') no-repeat center top; /* Changed to center top to show the upper part */
+    background: url('photo.jpeg') no-repeat center top; /* Changed to center top to show the upper part */
     background-size: cover;
     -webkit-background-clip: text; /* Включаем обрезку фона */
     color: transparent; /* Делаем текст прозрачным */
